@@ -1,0 +1,20 @@
+PODS:
+  - Bolts/Tasks (1.6.0)
+  - IMFCore (1.0.11)
+  - IMFPush (1.0.0):
+    - IMFCore (~> 1.0.0)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+
+DEPENDENCIES:
+  - IMFCore
+  - IMFPush
+  - Parse
+
+SPEC CHECKSUMS:
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  IMFCore: 6a28c4a777819b9f957bf8c2644e3ebf72f2ccb6
+  IMFPush: 40412a5cc2b4cd9e6db9034d58d0eaa16f0d0f58
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+
+COCOAPODS: 0.39.0

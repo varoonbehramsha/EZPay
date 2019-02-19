@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00ACC104D4A8D2C20858796 /* Pods_EZPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D816198B1A133018249D47 /* Pods_EZPay.framework */; };
 		C01711921C909CC700D650FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01711911C909CC700D650FA /* AppDelegate.swift */; };
 		C01711941C909CC700D650FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01711931C909CC700D650FA /* ViewController.swift */; };
 		C01711971C909CC700D650FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01711951C909CC700D650FA /* Main.storyboard */; };
 		C01711991C909CC700D650FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01711981C909CC700D650FA /* Assets.xcassets */; };
 		C017119C1C909CC700D650FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C017119A1C909CC700D650FA /* LaunchScreen.storyboard */; };
+		C01711A41C909D1D00D650FA /* SwiftRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01711A31C909D1D00D650FA /* SwiftRequest.swift */; };
+		C04539421C91F4FA009AB6F4 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04539411C91F4FA009AB6F4 /* UserManager.swift */; };
+		C045394A1C933689009AB6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04539491C933689009AB6F4 /* AppDelegate.swift */; };
+		C045394C1C933689009AB6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045394B1C933689009AB6F4 /* ViewController.swift */; };
+		C045394F1C933689009AB6F4 /* EZPayMerchant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C045394D1C933689009AB6F4 /* EZPayMerchant.storyboard */; };
+		C04539511C933689009AB6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04539501C933689009AB6F4 /* Assets.xcassets */; };
+		C04539541C933689009AB6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04539521C933689009AB6F4 /* LaunchScreen.storyboard */; };
+		C045395A1C943883009AB6F4 /* EZPayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04539591C943882009AB6F4 /* EZPayManager.swift */; };
+		C045395C1C943930009AB6F4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045395B1C94392F009AB6F4 /* HomeVC.swift */; };
+		C045395E1C943978009AB6F4 /* MerchantTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C045395D1C943978009AB6F4 /* MerchantTBC.swift */; };
+		C04539601C943B0C009AB6F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C045395F1C943B0C009AB6F4 /* CoreLocation.framework */; };
+		C04539621C943B13009AB6F4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04539611C943B13009AB6F4 /* CoreBluetooth.framework */; };
+		C06722981C957846005956A4 /* CustomersCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06722971C957845005956A4 /* CustomersCVC.swift */; };
+		C067229A1C957C63005956A4 /* CustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06722991C957C63005956A4 /* CustomerCell.swift */; };
+		C067229C1C95D8E8005956A4 /* ConfirmPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067229B1C95D8E8005956A4 /* ConfirmPaymentVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95F16987436FD1702373E013 /* Pods-EZPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZPay/Pods-EZPay.release.xcconfig"; sourceTree = "<group>"; };
+		97CD8F46F0819225C608B5BA /* Pods-EZPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZPay/Pods-EZPay.debug.xcconfig"; sourceTree = "<group>"; };
+		97D816198B1A133018249D47 /* Pods_EZPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C017118E1C909CC700D650FA /* EZPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01711911C909CC700D650FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C01711931C909CC700D650FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,10 +41,38 @@
 		C01711981C909CC700D650FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C017119B1C909CC700D650FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C017119D1C909CC700D650FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01711A31C909D1D00D650FA /* SwiftRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRequest.swift; sourceTree = "<group>"; };
+		C01711A51C91613E00D650FA /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		C04539411C91F4FA009AB6F4 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		C04539471C933689009AB6F4 /* EZPayMerchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZPayMerchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04539491C933689009AB6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C045394B1C933689009AB6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C045394E1C933689009AB6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EZPayMerchant.storyboard; sourceTree = "<group>"; };
+		C04539501C933689009AB6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C04539531C933689009AB6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C04539551C933689009AB6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04539591C943882009AB6F4 /* EZPayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZPayManager.swift; sourceTree = "<group>"; };
+		C045395B1C94392F009AB6F4 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C045395D1C943978009AB6F4 /* MerchantTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantTBC.swift; sourceTree = "<group>"; };
+		C045395F1C943B0C009AB6F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C04539611C943B13009AB6F4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C06722971C957845005956A4 /* CustomersCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomersCVC.swift; sourceTree = "<group>"; };
+		C06722991C957C63005956A4 /* CustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerCell.swift; sourceTree = "<group>"; };
+		C067229B1C95D8E8005956A4 /* ConfirmPaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C017118B1C909CC700D650FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04539621C943B13009AB6F4 /* CoreBluetooth.framework in Frameworks */,
+				C04539601C943B0C009AB6F4 /* CoreLocation.framework in Frameworks */,
+				B00ACC104D4A8D2C20858796 /* Pods_EZPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04539441C933689009AB6F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +82,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E290C50085DD1B33CEBFAF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04539611C943B13009AB6F4 /* CoreBluetooth.framework */,
+				C045395F1C943B0C009AB6F4 /* CoreLocation.framework */,
+				97D816198B1A133018249D47 /* Pods_EZPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C01711851C909CC700D650FA = {
 			isa = PBXGroup;
 			children = (
+				C01711A51C91613E00D650FA /* BridgingHeader.h */,
 				C01711901C909CC700D650FA /* EZPay */,
+				C04539481C933689009AB6F4 /* EZPayMerchant */,
 				C017118F1C909CC700D650FA /* Products */,
+				D7070FBFB413378A22C87BDC /* Pods */,
+				0E290C50085DD1B33CEBFAF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C017118E1C909CC700D650FA /* EZPay.app */,
+				C04539471C933689009AB6F4 /* EZPayMerchant.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +116,44 @@
 		C01711901C909CC700D650FA /* EZPay */ = {
 			isa = PBXGroup;
 			children = (
+				C06722971C957845005956A4 /* CustomersCVC.swift */,
+				C06722991C957C63005956A4 /* CustomerCell.swift */,
+				C04539591C943882009AB6F4 /* EZPayManager.swift */,
+				C04539411C91F4FA009AB6F4 /* UserManager.swift */,
 				C01711911C909CC700D650FA /* AppDelegate.swift */,
+				C01711A31C909D1D00D650FA /* SwiftRequest.swift */,
 				C01711931C909CC700D650FA /* ViewController.swift */,
+				C045395B1C94392F009AB6F4 /* HomeVC.swift */,
+				C045395D1C943978009AB6F4 /* MerchantTBC.swift */,
 				C01711951C909CC700D650FA /* Main.storyboard */,
+				C067229B1C95D8E8005956A4 /* ConfirmPaymentVC.swift */,
 				C01711981C909CC700D650FA /* Assets.xcassets */,
 				C017119A1C909CC700D650FA /* LaunchScreen.storyboard */,
 				C017119D1C909CC700D650FA /* Info.plist */,
 			);
 			path = EZPay;
+			sourceTree = "<group>";
+		};
+		C04539481C933689009AB6F4 /* EZPayMerchant */ = {
+			isa = PBXGroup;
+			children = (
+				C04539491C933689009AB6F4 /* AppDelegate.swift */,
+				C045394B1C933689009AB6F4 /* ViewController.swift */,
+				C045394D1C933689009AB6F4 /* EZPayMerchant.storyboard */,
+				C04539501C933689009AB6F4 /* Assets.xcassets */,
+				C04539521C933689009AB6F4 /* LaunchScreen.storyboard */,
+				C04539551C933689009AB6F4 /* Info.plist */,
+			);
+			path = EZPayMerchant;
+			sourceTree = "<group>";
+		};
+		D7070FBFB413378A22C87BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97CD8F46F0819225C608B5BA /* Pods-EZPay.debug.xcconfig */,
+				95F16987436FD1702373E013 /* Pods-EZPay.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01711A01C909CC700D650FA /* Build configuration list for PBXNativeTarget "EZPay" */;
 			buildPhases = (
+				3BA5B2592D124F502987C567 /* Check Pods Manifest.lock */,
 				C017118A1C909CC700D650FA /* Sources */,
 				C017118B1C909CC700D650FA /* Frameworks */,
 				C017118C1C909CC700D650FA /* Resources */,
+				406276880F8BC26C08E43FE7 /* Embed Pods Frameworks */,
+				E5A94C678725A7016835E2B5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -82,6 +177,23 @@
 			name = EZPay;
 			productName = EZPay;
 			productReference = C017118E1C909CC700D650FA /* EZPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C04539461C933689009AB6F4 /* EZPayMerchant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04539561C933689009AB6F4 /* Build configuration list for PBXNativeTarget "EZPayMerchant" */;
+			buildPhases = (
+				C04539431C933689009AB6F4 /* Sources */,
+				C04539441C933689009AB6F4 /* Frameworks */,
+				C04539451C933689009AB6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZPayMerchant;
+			productName = EZPayMerchant;
+			productReference = C04539471C933689009AB6F4 /* EZPayMerchant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +207,18 @@
 				ORGANIZATIONNAME = VaroonBehramsha;
 				TargetAttributes = {
 					C017118D1C909CC700D650FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = RWJBUBN2SG;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C04539461C933689009AB6F4 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -113,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				C017118D1C909CC700D650FA /* EZPay */,
+				C04539461C933689009AB6F4 /* EZPayMerchant */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +253,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C04539451C933689009AB6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04539541C933689009AB6F4 /* LaunchScreen.storyboard in Resources */,
+				C04539511C933689009AB6F4 /* Assets.xcassets in Resources */,
+				C045394F1C933689009AB6F4 /* EZPayMerchant.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA5B2592D124F502987C567 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		406276880F8BC26C08E43FE7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZPay/Pods-EZPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A94C678725A7016835E2B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZPay/Pods-EZPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C017118A1C909CC700D650FA /* Sources */ = {
@@ -137,6 +320,23 @@
 			files = (
 				C01711941C909CC700D650FA /* ViewController.swift in Sources */,
 				C01711921C909CC700D650FA /* AppDelegate.swift in Sources */,
+				C067229C1C95D8E8005956A4 /* ConfirmPaymentVC.swift in Sources */,
+				C04539421C91F4FA009AB6F4 /* UserManager.swift in Sources */,
+				C045395E1C943978009AB6F4 /* MerchantTBC.swift in Sources */,
+				C067229A1C957C63005956A4 /* CustomerCell.swift in Sources */,
+				C045395C1C943930009AB6F4 /* HomeVC.swift in Sources */,
+				C01711A41C909D1D00D650FA /* SwiftRequest.swift in Sources */,
+				C06722981C957846005956A4 /* CustomersCVC.swift in Sources */,
+				C045395A1C943883009AB6F4 /* EZPayManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04539431C933689009AB6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C045394C1C933689009AB6F4 /* ViewController.swift in Sources */,
+				C045394A1C933689009AB6F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +355,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				C017119B1C909CC700D650FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C045394D1C933689009AB6F4 /* EZPayMerchant.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C045394E1C933689009AB6F4 /* Base */,
+			);
+			name = EZPayMerchant.storyboard;
+			sourceTree = "<group>";
+		};
+		C04539521C933689009AB6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C04539531C933689009AB6F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -201,6 +417,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "3644f079-e909-4404-b8d3-4f2c3f887e50";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -239,6 +456,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "3644f079-e909-4404-b8d3-4f2c3f887e50";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -247,22 +465,56 @@
 		};
 		C01711A11C909CC700D650FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CD8F46F0819225C608B5BA /* Pods-EZPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EZPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VB.EZPay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		C01711A21C909CC700D650FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F16987436FD1702373E013 /* Pods-EZPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EZPay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VB.EZPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+			};
+			name = Release;
+		};
+		C04539571C933689009AB6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZPayMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.EZPayMerchant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C04539581C933689009AB6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZPayMerchant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VB.EZPayMerchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -286,6 +538,16 @@
 				C01711A21C909CC700D650FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04539561C933689009AB6F4 /* Build configuration list for PBXNativeTarget "EZPayMerchant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04539571C933689009AB6F4 /* Debug */,
+				C04539581C933689009AB6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

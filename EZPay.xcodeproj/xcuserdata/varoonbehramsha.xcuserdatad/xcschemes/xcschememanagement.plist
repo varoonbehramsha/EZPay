@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EZPayMerchant.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C017118D1C909CC700D650FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C04539461C933689009AB6F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
